@@ -13,4 +13,7 @@ function whileLoop(n) {
     console.log(n);
     n--;
   }
+  while (n = 0) {
+    console.log(`done`)
+  }
 }
